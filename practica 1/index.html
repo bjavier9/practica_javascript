@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <meta lang="es">
+    <meta charset="utf-8">
+<head>
+    
+    <title>Document</title>
+    <style>
+        table, td, th{
+
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td{
+            padding: 15px;
+        }
+    .btn{
+        border: none;
+        color: white;
+        padding: 13px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin:4px 2px;
+        cursor: pointer;
+        background-color: #f44336;
+        transition-duration:0.4s; 
+    }
+    .btn:hover{
+        background-color: orange;
+        color: black;
+        
+    }
+    
+    </style>
+</head>
+<body>
+    <button class="btn" onclick="operadores()">Mostrar Operadores</button>
+    <button class="btn" onclick="operadores_1()">Mostrar Operadores de comparacion</button>
+    <button class="btn" onclick="operadoresbit()">Mostrar Operadores bit</button>
+    <div id="operadores"></div>
+    <div id="operadores1"></div>
+    <div id="operadoresbit"></div>
+    <script src="js/app.js"></script>
+</body>
+</html>
